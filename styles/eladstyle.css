@@ -18,6 +18,22 @@ body{
     display: flex;
     align-items: center;
 }
+.logo .default{
+    display: inline;
+    width: 120px;
+}
+
+.logo .hover{
+ display: none;
+ font-size: 21px;
+ width: 120px;
+}
+ .logo:hover .default{
+    display: none;
+ }
+ .logo:hover .hover{
+    display: inline;
+ }
 .logo img{
     height: 50px;
     width: auto;
