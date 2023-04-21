@@ -126,8 +126,13 @@ header a {
 }
 .suggestions{
     display: flex;
-    width: 800px;
-    justify-content: space-evenly;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.suggestions a{
+    text-align: center;
+    
 }
 
 .quote{
@@ -152,7 +157,7 @@ header a {
     margin: auto;
     margin-top: 50px;
     display: flex;
-    width: 900px;
+    width: 70vw;
     background-color: #3882f6;
     border-radius: 5px;
     justify-content: space-around;
