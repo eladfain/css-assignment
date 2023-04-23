@@ -43,9 +43,6 @@ header{
     justify-content:space-between;
     background-color: #1f2937;
     justify-content:space-around;
-    border-bottom:1px solid;
-    box-shadow: 0px 4px #090909;
-    z-index: 10;
     position: sticky;
     top: 0;
 }   
@@ -65,7 +62,7 @@ header a {
 
 .hero{
     display: flex;
-    background-color: #394f6e;
+    background-color: #1f2937;
     align-items: center;
     justify-content: space-evenly;
     color: #f9faf8;
@@ -86,11 +83,18 @@ header a {
     padding: 2px;
 }
 .hero-img img{
-    width: 280px;
+    width: 350px;
     height: auto;
-    padding-top: 30px;
+    padding-bottom: 10px;
 }
-
+.hero-intro{
+    max-width: 500px;
+    text-align: center;
+}
+.hero-intro>*{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 .best-selection{
     margin-top: 20px;
     display: flex;
@@ -136,7 +140,7 @@ header a {
 }
 
 .quote{
-    width: 100%;
+    width: 60vw;
     background-color: #e5e7eb;
     color:#1f2937;
     font-size: 36px;
@@ -144,24 +148,29 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
     margin: auto;
 }
-
+.quote blockquote{
+    width: 400px;
+    
+}
 .quote .source{
-    align-self: flex-end;
+    display: block;
+    text-align: right;
     font-weight: bold;
-    padding: 10px;
 }
 
 .signup{
     margin: auto;
     margin-top: 50px;
     display: flex;
-    width: 70vw;
+    width: 40vw;
     background-color: #3882f6;
     border-radius: 5px;
     justify-content: space-around;
     align-items: center;
+    height: 100px;
 }
 
 .signup button{
@@ -174,13 +183,12 @@ header a {
 }
 
 footer{
-    background-color: #090909;
+    background-color: #1f2937;
     color: #e5e7eb;
     width: 100%;
     text-align: center;
+    justify-content: center;
     margin-top: 50px;
     height: 50px;
-}
-footer span{
-    padding-top: 10px;
+    padding-top: 25px;
 }
